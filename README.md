@@ -1,5 +1,5 @@
 # MorfiTime
-<img src="https://github.com/quitodev/MorfiTime-Web/blob/main/assets/Grafico.png?raw=true" width="740">
+<img src="https://github.com/quitodev/MorfiTime-Web/blob/main/img/Grafico.png?raw=true" width="740">
 
 MorfiTime is an application that facilitates reservations at gastronomic establishments.
 
@@ -13,8 +13,7 @@ With MorfiTime it is no longer necessary to call to the place, just simply make 
 Even if the place does not confirm your reservation, you will also receive a push notification on your smartphone.
 
 ## Images
-<img src="https://github.com/quitodev/MorfiTime-Web/blob/main/assets/1.jpg?raw=true" width="245"> <img src="https://github.com/quitodev/MorfiTime-Web/blob/main/assets/2.jpg?raw=true" width="245"> <img src="https://github.com/quitodev/MorfiTime-Web/blob/main/assets/3.jpg?raw=true" width="245"> <img src="https://github.com/quitodev/MorfiTime-Web/blob/main/assets/4.jpg?raw=true" width="245">
-<img src="https://github.com/quitodev/MorfiTime-Web/blob/main/assets/5.jpg?raw=true" width="245"> <img src="https://github.com/quitodev/MorfiTime-Web/blob/main/assets/6.jpg?raw=true" width="245">
+<img src="https://github.com/quitodev/MorfiTime-Web/blob/main/img/1.jpg?raw=true" width="245"> <img src="https://github.com/quitodev/MorfiTime-Web/blob/main/img/2.jpg?raw=true" width="245"> <img src="https://github.com/quitodev/MorfiTime-Web/blob/main/img/3.jpg?raw=true" width="245"> <img src="https://github.com/quitodev/MorfiTime-Web/blob/main/img/4.jpg?raw=true" width="245"> <img src="https://github.com/quitodev/MorfiTime-Web/blob/main/img/5.jpg?raw=true" width="245"> <img src="https://github.com/quitodev/MorfiTime-Web/blob/main/img/6.jpg?raw=true" width="245">
 
 ## Benefits of downloading the app
 - Allows you to discover new gastronomic places close to your current location.
