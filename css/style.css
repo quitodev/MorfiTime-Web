@@ -1,0 +1,487 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    background: #FFC27A;
+    font-family: 'poppins';
+}
+
+/* Body */
+
+/* Header */
+
+header {
+    /* Fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 14%, 0.459), hsla(320, 9%, 20%, 0.664)), url(../img/home.png);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 0%, 14%, 0.459), hsla(320, 9%, 20%, 0.664)), url(../img/home.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    width: 100%;
+}
+
+.header_logo {
+    height: 250px;
+    margin-top: 100px;
+    width: 250px;
+}
+
+.header_texts {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.header_texts h1 {
+    color:#FFFFFF;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.header_texts h2 {
+    color:#FFFFFF;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.header_wave {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/* Body */
+
+/* Header */
+
+/* Navigation */
+
+nav {
+    padding: 30px 50px 0 0;
+    text-align: right;
+}
+
+nav > a {
+    color:#FFFFFF;
+    font-weight: 300;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+/* Body */
+
+/* Main */
+
+.main_container {
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    overflow: hidden;
+    width: 90%;
+}
+
+.main_title {
+    color: #222222;
+    font-size: 38px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.main_download_title {
+    color: #222222;
+    font-size: 38px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* Body */
+
+/* Main */
+
+/* Description */
+
+main 
+
+.main_description {
+    background: #FFC27A;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main_description_image {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 50%;
+}
+
+.main_description_texts h3 {
+    margin-bottom: 15px;
+}
+
+.main_description_texts p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 0px 30px 0px;
+    text-align: justify;
+}
+
+/* Body */
+
+/* Main */
+
+/* Benefits */
+
+.main_benefits {
+    background: #F2F2F2;
+}
+
+.main_benefits_container_1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main_benefits_container_2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main_benefits_container_2 h3 {
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main_benefits_container_2 p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.main_divider {
+    border-bottom: 1px solid #222222;
+    margin: 75px;
+}
+
+/* Body */
+
+/* Main */
+
+/* Download */
+
+.main_download_container_1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main_download_container_2 {
+    align-items: center;
+    width: 40%;
+}
+
+.main_download_container_2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.main_download_texts {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 45px;
+    text-align: center;
+    width: 100%;
+}
+
+.main_download_texts p {
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+/* Body */
+
+/* Main */
+
+/* Comments */
+
+.main_comments_container_1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main_comments_container_1 .main_comments_container_2 {
+    align-items: center;
+    background: #222222;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    width: 46%;
+}
+
+.main_comments_container_1 .main_comments_container_2 img {
+    border: 3px solid #FF9877;
+    border-radius: 50%;
+    display: block;
+    height: 120px;
+    margin-left: 10px;
+    object-fit: cover;
+    width: 120px;
+}
+
+.main_comments_container_1 .main_comments_container_2 > .main_comments_texts {
+    color: #FF9877;
+    width: 60%;
+}
+
+.main_comments_container_1 .main_comments_container_2 > .main_comments_texts p {
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+/* Body */
+
+/* Footer */
+
+footer {
+    background: #222222;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Body */
+
+/* Footer */
+
+/* Contact */
+
+.footer_contact_title {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.footer_contact_container_1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 90%;
+}
+
+.footer_contact_container_2 {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.footer_contact_container_2 h4 {
+    border-bottom: 3px solid #FFC27A;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.footer_contact_container_2 p {
+    color: #CCCCCC;
+}
+
+/* Sizes for different devices */
+
+@media screen and (max-width:900px){
+
+    /* Body */
+
+    /* Header */
+
+    header {
+        background-position: center;
+    }
+
+    /* Body */
+
+    /* Main */
+
+    /* Description */
+
+    .main_description {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main_description_image {
+        width: 90%;
+    }
+    
+    /* Body */
+
+    /* Main */
+
+    /* Benefits */
+
+    .main_benefits_container_1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Body */
+
+    /* Main */
+
+    /* Download */
+
+    .main_download_container_1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main_download_container_2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .main_download_container_2:nth-child(1), .main_download_container_2:nth-child(2) {
+        margin-bottom: 60px;
+    }
+
+    .main_download_container_2 img {
+        width: 90%;
+    }
+
+    /* Body */
+
+    /* Main */
+
+    /* Comments */
+
+    .main_comments_container_1 {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main_comments_container_1 .main_comments_container_2 {
+        width: 90%;
+    }
+
+    .main_comments_container_1 .main_comments_container_2:first-child {
+        margin-bottom: 30px;
+    }
+}
+
+/* Sizes for different devices */
+
+@media screen and (max-width: 500px){
+
+    /* Body */
+
+    /* Header */
+
+    .header_texts h1 {
+        font-size: 35px;
+    }
+
+    .header_texts h2 {
+        font-size: 20px;
+    }
+
+    /* Body */
+
+    /* Header */
+
+    /* Navigation */
+
+    nav {
+        padding: 30px 0 0 0;
+        text-align: center;
+    }
+
+    nav > a {
+        margin-right: 5px;
+    }
+
+    /* Body */
+
+    /* Main */
+
+    /* Description */
+
+    .main_description_image {
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    /* Body */
+    
+    /* Main */
+
+    /* Comments */
+
+    .main_comments_container_1 .main_comments_container_2 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 320px;
+    }
+
+    /* Body */
+
+    /* Footer */
+
+    /* Contact */
+
+    .footer_contact_container_1 {
+        border: none;
+        flex-direction: column;
+    }
+
+    .footer_contact_container_2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer_contact_container_2 h4 {
+        border-bottom: 3px solid #FFC27A;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 5px;
+    }
+}
